@@ -64,5 +64,157 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Webcite is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://webcite.co
+Webcite provides an evidence layer for AI applications and agents, offering claim verification, document parsing, OCR, and citation generation through a unified API and MCP server. It reads documents, checks every claim against sources, and returns exact evidence citations, enabling developers to add trustworthy fact‑checking to AI chatbots, search tools, and data pipelines without requiring an account or credits.
+
+**Areas:** AI · Fact-Checking · Document-Parsing · Evidence · API
+
+## Webcite on APIs.io
+
+Everything profiled for Webcite is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/webcite/](https://apis.io/providers/webcite/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Webcite Check quotes API](https://apis.io/apis/webcite/webcite-check-quotes-api/) — Check that quotes appear in the sources you give, and open a citation at its quoted passage.
+- [Webcite Figures and conflicts API](https://apis.io/apis/webcite/webcite-figures-and-conflicts-api/) — Extract financial figures with units, periods and locations, recompute totals and flag figures that conflict.
+- [Webcite Parse documents API](https://apis.io/apis/webcite/webcite-parse-documents-api/) — Convert PDFs, scans, images, spreadsheets and office files to Markdown with page and sheet locations, split them into anchored chunks, classify them and ask…
+- [Webcite Retained sources API](https://apis.io/apis/webcite/webcite-retained-sources-api/) — Register, publish and read immutable source representations and units, and check arithmetic against them.
+- [Webcite Saved citations API](https://apis.io/apis/webcite/webcite-saved-citations-api/) — Read your past verification results.
+- [Webcite Search sources API](https://apis.io/apis/webcite/webcite-search-sources-api/) — Find sources for a query, without a stance or verdict.
+- [Webcite Upload API](https://apis.io/apis/webcite/webcite-upload-api/) — Store a file once and get an asset_id for extraction, figures or review.
+- [Webcite Verify claims API](https://apis.io/apis/webcite/webcite-verify-claims-api/) — Check one factual claim against web sources and get citations, a stance for each source and a verdict.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Webcite Webhooks](https://apis.io/asyncapis/webcite/webcite-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Webcite Agentic Access](https://apis.io/agentic-access/webcite/webcite-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ClassifyResponseDto](https://apis.io/schemas/webcite/webcite-classify-response-dto/)
+- [ExtractFiguresResponseDto](https://apis.io/schemas/webcite/webcite-extract-figures-response-dto/)
+- [ExtractPagesResponseDto](https://apis.io/schemas/webcite/webcite-extract-pages-response-dto/)
+- [ExtractResponseDto](https://apis.io/schemas/webcite/webcite-extract-response-dto/)
+- [SearchResponseDto](https://apis.io/schemas/webcite/webcite-search-response-dto/)
+- [VerifyClaimDto](https://apis.io/schemas/webcite/webcite-verify-claim-dto/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Webcite Context](https://apis.io/jsonld/webcite/webcite-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Webcite API Rules](https://apis.io/rules/webcite/webcite-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Webcite Authentication](https://apis.io/security/webcite/webcite-authentication/)
+- [Webcite Domain Security](https://apis.io/security/webcite/webcite-domain-security/)
+- [Webcite Vulnerability Disclosure](https://apis.io/security/webcite/webcite-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Webcite Scopes](https://apis.io/scopes/webcite/webcite-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Webcite Plans Pricing](https://apis.io/plans/webcite/webcite-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Webcite Rate Limits](https://apis.io/rate-limits/webcite/webcite-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://webcite.co)
+- [Documentation](https://webcite.co/api-docs)
+- [Getting started](https://webcite.co/api-docs/quickstart)
+- [Pricing](https://webcite.co/pricing)
+- [Sign up](https://webcite.co/signup)
+- [Support](https://webcite.co/support)
+- [Blog](https://webcite.co/blog)
+- [Security](https://webcite.co/security)
+- [Terms of service](https://webcite.co/terms-and-conditions)
+- [Privacy policy](https://webcite.co/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 70.9** — exemplar · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 70.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.4 |
+| Developer ergonomics | 77.9 |
+| Access clarity | 59.1 |
+
+**Agent readiness 62.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/webcite/](https://apis.io/providers/webcite/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Webcite: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/webcite/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
